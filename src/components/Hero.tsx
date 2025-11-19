@@ -28,7 +28,7 @@ const Hero = () => {
               the nation.
             </p>
 
-            {/* Stats */}
+            {/* Stats  */}
             <div className="grid grid-cols-3 gap-6 py-6">
               <div className="text-center">
                 <div className="flex items-center justify-center w-12 h-12 hero-gradient rounded-full mb-2 mx-auto">
