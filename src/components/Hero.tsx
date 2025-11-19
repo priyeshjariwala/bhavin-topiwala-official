@@ -1,7 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { ArrowRight, Users, Target, Award } from "lucide-react";
 import { Link } from "react-router-dom";
-import heroImage from "@/assets/bhavin-hero.jpg";
+import heroImage from "@/assets/bhavin-topiwala-profile-pic.jpeg";
 
 const Hero = () => {
   return (
@@ -36,7 +36,7 @@ const Hero = () => {
                 <div className="text-2xl font-bold text-primary">5000+</div>
                 <div className="text-sm text-muted-foreground">Youth Connected</div>
               </div>
-              <div className="text-center">
+              {/* <div className="text-center">
                 <div className="flex items-center justify-center w-12 h-12 hero-gradient rounded-full mb-2 mx-auto">
                   <Target className="w-6 h-6 text-white" />
                 </div>
@@ -49,7 +49,7 @@ const Hero = () => {
                 </div>
                 <div className="text-2xl font-bold text-primary">10+</div>
                 <div className="text-sm text-muted-foreground">Awards</div>
-              </div>
+              </div> */}
             </div>
 
             {/* CTAs */}
