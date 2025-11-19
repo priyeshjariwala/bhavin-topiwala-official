@@ -1,16 +1,16 @@
 import { useState } from "react";
+import { useNavigate } from "react-router-dom";
 import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
 import { Card, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
-import { X } from "lucide-react";
 import rally1 from "@/assets/rally-1.jpg";
 import community1 from "@/assets/community-1.jpg";
 import meeting1 from "@/assets/meeting-1.jpg";
 
 const Gallery = () => {
-  const [selectedImage, setSelectedImage] = useState<string | null>(null);
+  const navigate = useNavigate();
   const [selectedCategory, setSelectedCategory] = useState<string>("all");
 
   const galleryItems = [
@@ -101,7 +101,7 @@ const Gallery = () => {
               <Card 
                 key={item.id} 
                 className="card-shadow hover:shadow-lg smooth-transition cursor-pointer group"
-                onClick={() => setSelectedImage(item.image)}
+                onClick={() => navigate(`/gallery/${item.id}`)}
               >
                 <CardContent className="p-0">
                   <div className="relative overflow-hidden rounded-t-lg">
@@ -128,27 +128,6 @@ const Gallery = () => {
       </main>
 
       <Footer />
-
-      {/* Lightbox Modal */}
-      {selectedImage && (
-        <div className="fixed inset-0 bg-black/80 flex items-center justify-center z-50 p-4">
-          <div className="relative max-w-4xl w-full">
-            <Button
-              variant="ghost"
-              size="sm"
-              className="absolute -top-12 right-0 text-white hover:bg-white/20"
-              onClick={() => setSelectedImage(null)}
-            >
-              <X className="w-6 h-6" />
-            </Button>
-            <img
-              src={selectedImage}
-              alt="Gallery item"
-              className="w-full h-auto rounded-lg"
-            />
-          </div>
-        </div>
-      )}
     </div>
   );
 };
