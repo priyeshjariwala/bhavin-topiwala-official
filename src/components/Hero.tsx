@@ -23,18 +23,21 @@ const Hero = () => {
             </div>
 
             <p className="text-lg text-muted-foreground max-w-lg leading-relaxed">
-              Leading Surat's youth towards development, progress, and positive change. 
-              Working tirelessly for the betterment of our community and the nation.
+              Leading Surat's youth towards development, progress, and positive
+              change. Working tirelessly for the betterment of our community and
+              the nation.
             </p>
 
-            {/* Stats */}
+            {/* Stats  */}
             <div className="grid grid-cols-3 gap-6 py-6">
               <div className="text-center">
                 <div className="flex items-center justify-center w-12 h-12 hero-gradient rounded-full mb-2 mx-auto">
                   <Users className="w-6 h-6 text-white" />
                 </div>
                 <div className="text-2xl font-bold text-primary">5000+</div>
-                <div className="text-sm text-muted-foreground">Youth Connected</div>
+                <div className="text-sm text-muted-foreground">
+                  Youth Connected
+                </div>
               </div>
               {/* <div className="text-center">
                 <div className="flex items-center justify-center w-12 h-12 hero-gradient rounded-full mb-2 mx-auto">
@@ -54,8 +57,8 @@ const Hero = () => {
 
             {/* CTAs */}
             <div className="flex flex-col sm:flex-row gap-4">
-              <Button 
-                size="lg" 
+              <Button
+                size="lg"
                 className="hero-gradient text-white elegant-shadow smooth-transition hover:scale-105"
               >
                 <Link to="/contact" className="flex items-center">
@@ -63,8 +66,8 @@ const Hero = () => {
                   <ArrowRight className="ml-2 w-4 h-4" />
                 </Link>
               </Button>
-              <Button 
-                variant="outline" 
+              <Button
+                variant="outline"
                 size="lg"
                 className="border-primary text-primary hover:bg-primary hover:text-white"
               >
