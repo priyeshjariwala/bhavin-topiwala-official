@@ -99,6 +99,14 @@ const Footer = () => {
               </li>
               <li>
                 <Link 
+                  to="/history" 
+                  className="text-muted-foreground hover:text-primary smooth-transition"
+                >
+                  History
+                </Link>
+              </li>
+              <li>
+                <Link 
                   to="/gallery" 
                   className="text-muted-foreground hover:text-primary smooth-transition"
                 >
@@ -113,6 +121,7 @@ const Footer = () => {
                   Contact
                 </Link>
               </li>
+              
             </ul>
           </div>
 

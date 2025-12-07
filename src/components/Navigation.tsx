@@ -22,12 +22,16 @@ const Navigation = () => {
         <div className="flex items-center justify-between h-16">
           {/* Logo/Name */}
           <Link to="/" className="flex items-center space-x-2">
-            <div className="w-10 h-10 hero-gradient rounded-full flex items-center justify-center">
+            {/* <div className="w-10 h-10 hero-gradient rounded-full flex items-center justify-center">
               <span className="text-white font-bold text-lg">BT</span>
-            </div>
+            </div> */}
             <div className="hidden sm:block">
-              <h1 className="text-xl font-bold text-foreground">Bhavin Topiwala</h1>
-              <p className="text-sm text-muted-foreground">BJP Yuva Morcha Surat</p>
+              <h1 className="text-xl font-bold text-foreground">
+                Bhavin Topiwala
+              </h1>
+              <p className="text-sm text-muted-foreground">
+                BJP Yuva Morcha Surat
+              </p>
             </div>
           </Link>
 
@@ -46,7 +50,11 @@ const Navigation = () => {
                 {item.name}
               </Link>
             ))}
-            <Button variant="default" className="hero-gradient text-white">
+            <Button
+              variant="default"
+              className="hero-gradient text-white"
+              onClick={() => (window.location.href = "/contact")}
+            >
               Get in Touch
             </Button>
           </div>
@@ -80,7 +88,10 @@ const Navigation = () => {
                   {item.name}
                 </Link>
               ))}
-              <Button variant="default" className="hero-gradient text-white w-fit">
+              <Button
+                variant="default"
+                className="hero-gradient text-white w-fit"
+              >
                 Get in Touch
               </Button>
             </div>

@@ -33,8 +33,8 @@ const About = () => {
             About <span className="text-gradient">Bhavin Topiwala</span>
           </h2>
           <p className="text-lg text-muted-foreground max-w-3xl mx-auto">
-            A dedicated leader working towards the development of Surat and empowerment of youth 
-            through the Bharatiya Janata Yuva Morcha platform.
+            A dedicated leader working towards the development of gujarat and empowerment of youth 
+            through the Bharatiya Janata party.
           </p>
         </div>
 
