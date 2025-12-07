@@ -131,7 +131,13 @@ const Footer = () => {
             <ul className="space-y-3">
               <li className="flex items-start space-x-3">
                 <MapPin className="w-4 h-4 text-primary mt-1 flex-shrink-0" />
-                <span className="text-sm text-muted-foreground">B-35 Jai Ranchhod Nagar, Behind Kalupur Bank, Prime Arcade Circle, Adajan, Surat 395009</span>
+                <span className="text-sm text-muted-foreground">Office1</span>
+                <span className="text-sm text-muted-foreground">: Bhartiya Janta Party Surat Mahanagar Karyalay, Udhna Main Road, Surat 394210</span>
+              </li>
+              <li className="flex items-start space-x-3">
+                <MapPin className="w-4 h-4 text-primary mt-1 flex-shrink-0" />
+                <span className="text-sm text-muted-foreground">Office2</span>
+                <span className="text-sm text-muted-foreground">: B-35 Jai Ranchhod Nagar, Behind Kalupur Bank, Prime Arcade Circle, Adajan, Surat 395009</span>
               </li>
               <li className="flex items-center space-x-3">
                 <Phone className="w-4 h-4 text-primary" />
@@ -139,7 +145,7 @@ const Footer = () => {
               </li>
               <li className="flex items-center space-x-3">
                 <Mail className="w-4 h-4 text-primary" />
-                <span className="text-sm text-muted-foreground">contact@bhavintopiwala.com</span>
+                <span className="text-sm text-muted-foreground">bhavintopiwala45@gmail.com</span>
               </li>
             </ul>
           </div>
