@@ -131,14 +131,14 @@ const Footer = () => {
             <ul className="space-y-3">
               <li className="flex items-start space-x-3">
                 <MapPin className="w-4 h-4 text-primary mt-1 flex-shrink-0" />
-                <span className="text-sm text-muted-foreground">Office1</span>
+                <span className="text-sm text-muted-foreground">Office</span>
                 <span className="text-sm text-muted-foreground">: Bhartiya Janta Party Surat Mahanagar Karyalay, Udhna Main Road, Surat 394210</span>
               </li>
-              <li className="flex items-start space-x-3">
+              {/* <li className="flex items-start space-x-3">
                 <MapPin className="w-4 h-4 text-primary mt-1 flex-shrink-0" />
                 <span className="text-sm text-muted-foreground">Office2</span>
                 <span className="text-sm text-muted-foreground">: B-35 Jai Ranchhod Nagar, Behind Kalupur Bank, Prime Arcade Circle, Adajan, Surat 395009</span>
-              </li>
+              </li> */}
               <li className="flex items-center space-x-3">
                 <Phone className="w-4 h-4 text-primary" />
                 <a href="tel:+919898062845" className="text-sm text-muted-foreground hover:text-primary smooth-transition">+91 98980 62845</a>

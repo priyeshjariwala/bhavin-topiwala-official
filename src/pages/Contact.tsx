@@ -40,9 +40,7 @@ const Contact = () => {
       icon: MapPin,
       title: "Office Address",
       details: [
-        "B-35 Jai Ranchhod Nagar",
-        "Behind Kalupur Bank, Prime Arcade Circle",
-        "Adajan, Surat 395009"
+        "Bhartiya Janta Party Surat Mahanagar Karyalay, Udhna Main Road, Surat 394210"
       ]
     },
     {
