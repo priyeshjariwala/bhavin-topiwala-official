@@ -16,7 +16,7 @@ const Hero = () => {
                 <span className="text-gradient">Bhavin Topiwala</span>
               </h1>
               <p className="text-xl text-primary font-semibold">
-                Presidenr
+                President
               </p>
               <p className="text-lg text-muted-foreground">
                 Bharatiya Janata Yuva Morcha, Surat Mahanagar
