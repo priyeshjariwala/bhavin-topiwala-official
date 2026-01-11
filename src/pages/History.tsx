@@ -29,7 +29,7 @@ const History = () => {
     lokSabha: "Surat Lok Sabha",
     vidhansabha: "Surat Paschim",
     ward: "10 (Adajan - Pal Ichchhapor - Bhatha)",
-    address: "B-35, Jay Ranchhodal Nagar, Prime Arcade Circle, Adajan, Surat - 395006",
+    address: "Surat",
     primaryMembership: "7000093131",
     activeMembership: "148044"
   };

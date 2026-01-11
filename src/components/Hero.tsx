@@ -1,7 +1,8 @@
 import { Button } from "@/components/ui/button";
 import { ArrowRight, Users, Target, Award } from "lucide-react";
 import { Link } from "react-router-dom";
-import heroImage from "@/assets/bhavin-topiwala-profile-pic.jpeg";
+import heroImage from "@/assets/bhavin-topiwala-profile.jpg";
+// import heroImage from "@/assets/bhavin-topiwala-profile-pic.jpeg";
 
 const Hero = () => {
   return (
@@ -15,10 +16,10 @@ const Hero = () => {
                 <span className="text-gradient">Bhavin Topiwala</span>
               </h1>
               <p className="text-xl text-primary font-semibold">
-                Surat Mahanagar Adhyakash
+                Presidenr
               </p>
               <p className="text-lg text-muted-foreground">
-                Bharatiya Janata Yuva Morcha, Surat
+                Bharatiya Janata Yuva Morcha, Surat Mahanagar
               </p>
             </div>
 
