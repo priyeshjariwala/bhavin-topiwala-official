@@ -60,11 +60,11 @@ const History = () => {
   ];
 
   const suratElections = [
-    { year: "2010, 2015, 2021", event: "Surat Mahanagar Palika Sthanik Swaraj Chuntani" },
-    { year: "2023", event: "Peta Chuntani - Ward No. 20" },
-    { year: "2025", event: "Peta Chuntani - Ward No. 18" },
-    { year: "2012, 2017, 2022", event: "Gujarat Vidhansabha Chuntani" },
-    { year: "2014, 2019, 2024", event: "Lok Sabha Chuntani" }
+    { year: "2010, 2015, 2021", event: "Surat Mahanagar Palika Sthanik Swaraj election" },
+    { year: "2023", event: "Peta election - Ward No. 20" },
+    { year: "2025", event: "Peta election - Ward No. 18" },
+    { year: "2012, 2017, 2022", event: "Gujarat Vidhansabha election" },
+    { year: "2014, 2019, 2024", event: "Lok Sabha election" }
   ];
 
   const gujaratByElections = [
@@ -96,14 +96,14 @@ const History = () => {
     { year: "2019", area: "Maharashtra Vidhansabha" },
     { year: "2018, 2023", area: "Madhya Pradesh Vidhansabha" },
     { year: "2020", area: "Delhi Vidhansabha" },
-    { year: "2021", area: "Dadra Nagar Haveli Lok Sabha Peta Chuntani" },
+    { year: "2021", area: "Dadra Nagar Haveli Lok Sabha Peta Election" },
     { year: "2022", area: "Punjab Vidhansabha" },
     { year: "2025", area: "Bihar Vidhansabha" }
   ];
 
   const universityElections = [
     { event: "SPB College election", year: "2011-2018", detail: "8 Continuous Years" },
-    { event: "VNSGU - Senate & Syndicate Chuntani", year: "2010-2018", detail: "" }
+    { event: "VNSGU - Senate & Syndicate election", year: "2010-2018", detail: "" }
   ];
 
   const socialOrganizations = [
