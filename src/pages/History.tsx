@@ -48,7 +48,7 @@ const History = () => {
   ];
 
   const sanghParivar = [
-    { org: "Rashtriya Swayamsevak Sangh (RSS)", detail: "2002 - Primary Class Training" },
+    { org: "Rashtriya Swayamsevak Sangh (RSS)", detail: "2002 - Prathmik Vargh Shikshit" },
     { org: "ABVP", detail: "2010-2012 - College Campus Incharge" }
   ];
 
@@ -102,7 +102,7 @@ const History = () => {
   ];
 
   const universityElections = [
-    { event: "SPB College Chuntani", year: "2011-2018", detail: "8 Continuous Years" },
+    { event: "SPB College election", year: "2011-2018", detail: "8 Continuous Years" },
     { event: "VNSGU - Senate & Syndicate Chuntani", year: "2010-2018", detail: "" }
   ];
 
